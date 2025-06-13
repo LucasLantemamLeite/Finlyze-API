@@ -1,4 +1,4 @@
-﻿namespace Finlyze.Domain.Entities;
+﻿namespace Finlyze.Domain.Entity;
 
 public abstract class Entity
 {
