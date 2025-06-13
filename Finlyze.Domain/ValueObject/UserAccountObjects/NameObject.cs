@@ -1,10 +1,10 @@
-﻿namespace Finlyze.Domain.ValueObject.UserAccountObjects;
+﻿namespace Finlyze.Domain.ValueObject.UserAccountObject;
 
-public class NameObject : ValueObject
+public class Name : ValueObject
 {
     public string Value { get; }
 
-    public NameObject(string name)
+    public Name(string name)
     {
         Value = name;
     }
