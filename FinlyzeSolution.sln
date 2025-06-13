@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finlyze.Domain", "Finlyze.Domain\Finlyze.Domain.csproj", "{3EE4386D-1859-490A-A60B-C91C760A1EA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finlyze.Tests", "Finlyze.Tests\Finlyze.Tests.csproj", "{DD7E75FD-5842-428F-AA95-91089FF20915}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{3EE4386D-1859-490A-A60B-C91C760A1EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EE4386D-1859-490A-A60B-C91C760A1EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EE4386D-1859-490A-A60B-C91C760A1EA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD7E75FD-5842-428F-AA95-91089FF20915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD7E75FD-5842-428F-AA95-91089FF20915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD7E75FD-5842-428F-AA95-91089FF20915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD7E75FD-5842-428F-AA95-91089FF20915}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
