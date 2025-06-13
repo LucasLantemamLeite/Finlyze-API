@@ -6,7 +6,7 @@ public partial class PhoneNumberRegexException : Exception
 {
     private PhoneNumberRegexException(string message) : base(message) { }
 
-    [GeneratedRegex(@"^\+\d\d{8,15}$")]
+    [GeneratedRegex(@"^\+\d{8,15}$")]
     private static partial Regex PhoneNumberRegex();
 
     public static void ThrowIfNotMatch(string phone_number, string message)
