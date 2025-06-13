@@ -1,4 +1,4 @@
-﻿namespace Finlyze.Domain.ValueObject.UserAccountObjects;
+﻿namespace Finlyze.Domain.ValueObject.UserAccountObject;
 
 public class Email
 {

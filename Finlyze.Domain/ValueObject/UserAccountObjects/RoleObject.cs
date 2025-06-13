@@ -1,6 +1,6 @@
 using Finlyze.Domain.ValueObject.Enumerator;
 
-namespace Finlyze.Domain.ValueObject;
+namespace Finlyze.Domain.ValueObject.UserAccountObject;
 
 public class Role : ValueObject
 {

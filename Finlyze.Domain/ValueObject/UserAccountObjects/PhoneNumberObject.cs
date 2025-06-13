@@ -1,4 +1,4 @@
-namespace Finlyze.Domain.ValueObject;
+namespace Finlyze.Domain.ValueObject.UserAccountObject;
 
 public class PhoneNumber : ValueObject
 {
