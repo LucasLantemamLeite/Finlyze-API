@@ -1,4 +1,6 @@
-﻿namespace Finlyze.Domain.ValueObject.UserAccountObject;
+﻿using Finlyze.Domain.ValueObject.Validation;
+
+namespace Finlyze.Domain.ValueObject.UserAccountObject;
 
 public class Login : ValueObject
 {
@@ -6,6 +8,7 @@ public class Login : ValueObject
 
     public Login(string login)
     {
+        DomainException.ThrowIfFalse(!string.IsNullOrWhiteSpace(login), "Login não pode ser nulo ou vazio.");
         Value = login;
     }
 }

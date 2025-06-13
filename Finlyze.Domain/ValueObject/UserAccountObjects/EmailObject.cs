@@ -1,4 +1,6 @@
-﻿namespace Finlyze.Domain.ValueObject.UserAccountObject;
+﻿using Finlyze.Domain.ValueObject.Validation;
+
+namespace Finlyze.Domain.ValueObject.UserAccountObject;
 
 public class Email
 {
@@ -6,6 +8,7 @@ public class Email
 
     public Email(string email)
     {
+        EmailRegexException.ThrowIfNotMatch(email, "Email inválido.");
         Value = email;
     }
 }
