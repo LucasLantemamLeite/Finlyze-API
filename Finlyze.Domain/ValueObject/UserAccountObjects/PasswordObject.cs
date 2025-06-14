@@ -11,4 +11,6 @@ public class Password
         DomainException.ThrowIfFalse(!string.IsNullOrWhiteSpace(password), "Password não pode ser nulo ou vazio.");
         Value = password;
     }
+
+    private Password() { }
 }

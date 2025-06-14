@@ -11,4 +11,6 @@ public class Email
         EmailRegexException.ThrowIfNotMatch(email, "Email inválido.");
         Value = email;
     }
+
+    private Email() { }
 }

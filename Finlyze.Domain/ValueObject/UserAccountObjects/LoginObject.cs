@@ -11,4 +11,6 @@ public class Login : ValueObject
         DomainException.ThrowIfFalse(!string.IsNullOrWhiteSpace(login), "Login não pode ser nulo ou vazio.");
         Value = login;
     }
+
+    private Login() { }
 }
