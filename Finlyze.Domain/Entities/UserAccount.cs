@@ -6,6 +6,7 @@ public class UserAccount : Entity
 {
     public Name Name { get; private set; }
     public Login Login { get; private set; }
+    public Password PasswordHash { get; private set; }
     public Email Email { get; private set; }
     public PhoneNumber PhoneNumber { get; private set; }
     public BirthDate BirthDate { get; private set; }
@@ -24,4 +25,6 @@ public class UserAccount : Entity
         Active = new Active();
         Role = new Role();
     }
+
+    private UserAccount() { }
 }
