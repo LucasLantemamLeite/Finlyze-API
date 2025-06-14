@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finlyze.Tests", "Finlyze.Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fynlyze.Migrations", "Fynlyze.Migrations\Fynlyze.Migrations.csproj", "{EE8BCB85-C8D5-4F05-B8A5-6193BD7A8E61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finlyze.Api", "Finlyze.Api\Finlyze.Api.csproj", "{81D61B72-C5D9-416D-9386-CD9528BF904D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finlyze.Infrastructure", "Finlyze.Infrastructure\Finlyze.Infrastructure.csproj", "{40728BC5-EEDE-41E0-B3EF-37BEA8A75EEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{EE8BCB85-C8D5-4F05-B8A5-6193BD7A8E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE8BCB85-C8D5-4F05-B8A5-6193BD7A8E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE8BCB85-C8D5-4F05-B8A5-6193BD7A8E61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81D61B72-C5D9-416D-9386-CD9528BF904D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D61B72-C5D9-416D-9386-CD9528BF904D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81D61B72-C5D9-416D-9386-CD9528BF904D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81D61B72-C5D9-416D-9386-CD9528BF904D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40728BC5-EEDE-41E0-B3EF-37BEA8A75EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40728BC5-EEDE-41E0-B3EF-37BEA8A75EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40728BC5-EEDE-41E0-B3EF-37BEA8A75EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40728BC5-EEDE-41E0-B3EF-37BEA8A75EEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
